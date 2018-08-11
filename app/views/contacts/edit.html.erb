@@ -1,0 +1,18 @@
+
+<div class="card" style="width: 70%; margin: 10px auto;">
+  <div class="card-body">
+  	<h2 class="card-title align-left">Contacts Details</h2>
+    <div class='btn btn-secondary btn-sm align-right'>
+      <%= link_to 'Back to Contact List', contacts_path %>
+    </div>
+    <div class='align-right'><span>&nbsp;&nbsp;</span></div>
+    <div class='btn btn-primary btn-sm align-right'>
+      <%= link_to 'Details', @contact %>
+    </div>
+    <br/>
+    <br/>
+    <hr/>
+    <%= render 'edit_form', contact: @contact %>
+  </div>
+</div>
+

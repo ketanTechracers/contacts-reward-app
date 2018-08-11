@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  purchase_amout: 9.99
+  reward_points: 9.99
+  contact: one
+
+two:
+  purchase_amout: 9.99
+  reward_points: 9.99
+  contact: two
